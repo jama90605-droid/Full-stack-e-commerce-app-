@@ -8,7 +8,7 @@ Deployed backend on AWS EC2 and frontend on Vercel for production
 
  Highlights
 
-- TanStack QueryImproves UX because the app feels fast and consistent 
+- TanStack Query Improves UX because the app feels fast and consistent 
 
 - Jest covers unit and integration test flows, including product rendering, cart updates, checkout, and payment confirmation.
   
