@@ -5,7 +5,7 @@
 1. Push your code to GitHub.
 2. Go to [vercel.com/new](https://vercel.com/new).
 3. Import your repository.
-4. Set **Root Directory** to `Full-stack-e-commerce-app-copy/frontend`.
+4. Set **Root Directory** to `frontend`.
 5. Vercel auto-detects Vite. Confirm:
    - **Build Command:** `npm run build`
    - **Output Directory:** `dist`
@@ -16,10 +16,13 @@ No environment variables are required. API and image requests are proxied to AWS
 ## Option 2: Vercel CLI
 
 ```bash
-cd Full-stack-e-commerce-app-copy/frontend
+cd frontend
 npm i -g vercel
 vercel
 ```
+
+If you leave Vercel's Root Directory empty, the root `vercel.json` is also
+configured to install and build this frontend automatically.
 
 ## How it works
 
